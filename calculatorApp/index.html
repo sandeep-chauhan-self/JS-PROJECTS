@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CALCULATOR</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Required JS AND CSS files -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">CALCULATOR</h1>
+    </header>
+    <main>
+        <div class="container">
+            <br>
+
+            <div class="keys">
+
+                <input type='text' class="screen" value="">
+                <i class="material-icons backspace" class="Button Backspace" onclick="Backspace()">backspace</i>
+                <input type="button" value="C" class="Button clear" onclick="ClearScreen()">
+                <input type="button" value="%" class="Button operator" onclick="Display('%')">
+                <input type="button" value="/" class="Button operator" onclick="Display('/')">
+                <input type="button" value="7" class="Button operant" onclick="Display('7')">
+                <input type="button" value="8" class="Button operant" onclick="Display('8')">
+                <input type="button" value="9" class="Button operant" onclick="Display('9')">
+                <input type="button" value="X" class="Button operator" onclick="Display('*')">
+                <input type="button" value="4" class="Button operant" onclick="Display('4')">
+                <input type="button" value="5" class="Button operant" onclick="Display('5')">
+                <input type="button" value="6" class="Button operant" onclick="Display('6')">
+                <input type="button" value="-" class="Button operator" onclick="Display('-')">
+                <input type="button" value="1" class="Button operant" onclick="Display('1')">
+                <input type="button" value="2" class="Button operant" onclick="Display('2')">
+                <input type="button" value="3" class="Button operant" onclick="Display('3')">
+                <input type="button" value="+" class="Button operator" onclick="Display('+')">
+                <input type="button" value="00" class="Button operant" onclick="Display('00')">
+                <input type="button" value="0" class="Button operant" onclick="Display('0')">
+                <input type="button" value="=" class="Button solve bg-black" onclick="Solve()">
+                <input type="button" value="." class="Button operator" onclick="Display('.')">
+           
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer id="foot">
+        <h5 style="text-align: center;">DEVELOPED BY SANDEEP CHAUHAN</h5>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+
+</html>
+.

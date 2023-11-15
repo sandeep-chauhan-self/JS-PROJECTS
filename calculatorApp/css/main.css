@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    border: 2px solid #131414;
+    box-shadow: 10px 10px 30px 0px rgba(40, 39, 39, 0.75);
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: #0f1010;
+}
+
+.keys{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin:auto;
+}
+
+.Button{
+    border: 1px solid #0f1010;
+    border-radius: 3px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    
+}
+
+.operant{
+    background-color: black;
+    box-shadow: 3px 3px 3px 3px rgba(36, 35, 35, 0.75);
+}
+
+.operant:hover{
+    background-color: black;
+}
+
+.operator{
+    background-color: black;
+    color: lightgreen;
+    box-shadow: 3px 3px 3px 3px rgba(36, 35, 35, 0.75);
+
+}
+
+.clear{
+    background-color: black;
+    grid-column: span 2;
+    color: lightgreen;
+    box-shadow: 3px 3px 3px 3px rgba(36, 35, 35, 0.75);
+}
+
+.screen{
+    background-color: rgb(162, 240, 240);
+    grid-column: span 3;
+    text-align: end;
+    font-size: x-large;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.backspace{
+    text-align: center;
+}
+
+.solve{
+    color: lightgreen;
+    box-shadow: 3px 3px 3px 3px rgba(36, 35, 35, 0.75);
+}
+
+
+
